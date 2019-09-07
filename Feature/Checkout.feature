@@ -25,3 +25,6 @@ When I checkout 1 "banana"
 Then the total price should be 40c
 
 Scenario: Banana split 
+Given Banana splitting
+When They SPlit
+Then mark up 
