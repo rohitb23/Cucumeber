@@ -24,3 +24,4 @@ Given the price of the "banana" is 40 c
 When I checkout 1 "banana"
 Then the total price should be 40c
 
+Scenario: checking banana history 
