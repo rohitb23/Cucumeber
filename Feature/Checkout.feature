@@ -37,4 +37,8 @@ When the market is iterated
 Then you need to add prices
 
 Scenario: Tomboy @ work 
+Given Tomboy need candies 
+When tomboy gets it 
+Then he eats
+
 
