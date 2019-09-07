@@ -25,3 +25,8 @@ When I checkout 1 "banana"
 Then the total price should be 40c
 
 Scenario: checking banana history 
+
+Given the price is reduced
+When the market is iterated
+Then you need to add prices
+
