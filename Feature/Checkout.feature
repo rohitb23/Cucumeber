@@ -24,7 +24,16 @@ Given the price of the "banana" is 40 c
 When I checkout 1 "banana"
 Then the total price should be 40c
 
+
 Scenario: Banana split 
 Given Banana splitting
 When They SPlit
 Then mark up 
+
+Scenario: checking banana history 
+
+Given the price is reduced
+When the market is iterated
+Then you need to add prices
+
+
