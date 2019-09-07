@@ -27,9 +27,15 @@ public class checking {
 
 	@Then("^the total price should be (\\d+)c$")
 	public void the_total_price_should_be_c(int total) throws Throwable {
-	  boolean d = (total == CheckOut.total());
-	  }
-	 
+		CheckOut = new Checkout();
+	   if (total == CheckOut.total()){
+		   System.out.println("True");
+	   } else{
+		   System.out.println("false");//temp id : 9116662186
+		   
+		                                
+	   }
+	}
 	}	
 	
 	

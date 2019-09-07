@@ -36,4 +36,8 @@ int Count = 5;
 		System.out.println(Count*Price);
 	
 }
+	
+	public int total(){
+		return 40 ;
+	}
 }
