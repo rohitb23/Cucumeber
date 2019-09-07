@@ -36,4 +36,5 @@ Given the price is reduced
 When the market is iterated
 Then you need to add prices
 
+Scenario: Tomboy @ work 
 
